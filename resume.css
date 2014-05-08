@@ -9,3 +9,11 @@ p{font-family:"Arial", Arial, sans-serif;}
 
 h1{font-family:"Arial", Arial, sans-serif;}
 
+#img{
+position: relative;
+left: 30%;
+top: 5px;
+}
+#text {
+position: top left;
+}
