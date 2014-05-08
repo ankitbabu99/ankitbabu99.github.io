@@ -1,0 +1,13 @@
+body{
+background-color: black;
+}
+#contentFrame {
+    background-color:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:800px;
+    height:600px;
+    margin-top:-300px;
+    margin-left:-400px;
+}
