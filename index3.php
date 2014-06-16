@@ -1,15 +1,15 @@
 <?php
 if(isset($_POST['guess'])){ $a=$_POST['guess'];
 if(!empty($a)){
-if($a=="Victoria Memorial") {$b="Congratulations !correct";}
-else $b="!Wrong Answer";
+if($a=="Victoria Memorial") {$b="Congratulations correct";}
+else $b="Wrong Answer";
 }}
 ?>
 
 
 <html>
 <head>
-<title>Play-Game</title>
+<title>Play Game</title>
 <script type="text/javascript" src="java.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
@@ -82,7 +82,7 @@ else $b="!Wrong Answer";
 <p id="scorebutton">score:</p>
 <p id="score">100</p>
 
-<form><input type="button" value="ShOw AnOtHer PArt" onclick="score3()" id="change"></form>
+<form><input type="button" value="show" onclick="score3()" id="change"></form>
 <form method="POST" action="index3.php" >
 <input name="guess"id="guess" placeholder="guess who's this?" type="text">
 <input type="submit" value="submit" id="submit">

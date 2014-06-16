@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['guess'])){ $a=$_POST['guess'];
 if(!empty($a)){
-if($a=="Victoria Memorial") {$b="Congratulations !correct";}
-else $b="!Wrong Answer";
+if($a=="Victoria Memorial") {$b="Congratulations correct";}
+else $b="Wrong Answer";
 }}
 ?>
 
@@ -82,7 +82,7 @@ else $b="!Wrong Answer";
 <p id="scorebutton">score:</p>
 <p id="score">100</p>
 
-<form><input type="button" value="ShOw AnOtHer PArt" onclick="score4()" id="change"></form>
+<form><input type="button" value="show" onclick="score4()" id="change"></form>
 <form method="POST" action="index4.php" >
 <input name="guess"id="guess" placeholder="guess who's this?" type="text">
 <input type="submit" value="submit" id="submit">
